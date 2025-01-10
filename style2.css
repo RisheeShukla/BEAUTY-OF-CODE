@@ -1,0 +1,76 @@
+body{
+    min-height: 450px;
+    height:100vh;
+    margin:0;
+    background:linear-gradient(
+        140deg,rgb(255, 68, 0) 20%,
+        rgb(187, 255, 0) 20% 80%,
+        rgb(8, 203, 141) 80% 100%
+
+    );
+}
+.container{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+transform-style: preserve-3d;
+transform: rotateX(15deg) rotateY(15deg);
+
+}
+.layer::after{
+    content: "Only \a  CSS";
+    font:120px x-large;
+    white-space:pre;
+    letter-spacing: -2px;
+    text-shadow: 2px 2px rgb(12, 151, 216);
+    position:absolute;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    top: 30px;
+    color:black;
+    
+    
+
+}
+.layer{
+    height: 100%;
+    width:100%;
+    position:absolute;
+    transform-style: preserve-3d;
+}
+.layer:nth-child(1)::after{
+    transform: translateZ(0px);
+}
+.layer:nth-child(2)::after{
+    transform: translateZ(-2px);
+}
+.layer:nth-child(3)::after{
+    transform: translateZ(-4px);
+}
+.layer:nth-child(4)::after{
+    transform: translateZ(-6px);
+}
+.layer:nth-child(5)::after{
+    transform: translateZ(-8px);
+}
+.layer:nth-child(6)::after{
+    transform: translateZ(-10px);
+}
+.layer:nth-child(7)::after{
+    transform: translateZ(-12px);
+}
+.layer:nth-child(8)::after{
+    transform: translateZ(-14px);
+}
+.layer:nth-child(9)::after{
+    transform: translateZ(-16px);
+}
+.layer:nth-child(10)::after{
+    transform: translateZ(-18px);
+}
