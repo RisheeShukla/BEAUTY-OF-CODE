@@ -1,0 +1,53 @@
+body{
+    width:100vw;
+    height:100vh;
+    justify-items: center;
+}
+.chrome{
+    position: relative;
+    width:210px;
+    height:210px;
+    background-color: rgb(240, 8, 167);
+    border: 2px solid black;
+    border-radius:50%;
+    margin: auto;
+    margin-top: 40vh;
+    overflow: hidden;
+    
+    
+}
+.blue{
+    position: absolute;
+    width:104px;
+    height:104px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 50%;
+    margin-left:-50px;
+    margin-top: -50px;
+    top:50%;
+    left:50%;
+overflow: hidden;
+
+}
+.red{
+    position: absolute;
+    width:186px;
+    height:60px;
+    background-color: red;
+    left:10px;
+    top:-4.5px;
+    
+
+}
+
+.yellow{
+    position: absolute;
+    bottom:0%;
+    width:190px;
+    height:50px;
+    background-color: yellow;
+    
+}
+
+
+
