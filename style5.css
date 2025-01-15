@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+    overflow: hidden;
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 40vw;
+}
+.card{
+    display:flex;
+    justify-content:left;
+    align-items:flex-start;
+    height: 380px;
+    width: 300px;
+    border: 5px solid rgb(83, 83, 83);
+    border-radius: 1em;
+    background:url("https://w0.peakpx.com/wallpaper/518/289/HD-wallpaper-shahrukh-khan-srk-smile-srk-smile-thumbnail.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    opacity:100%;
+    
+    
+
+}
+.icons{
+
+    display:grid;
+    font-size:x-large;
+     margin-top: 120px;
+
+
+}
+ .pp1:hover{
+    font-size: xx-large;
+    cursor:crosshair;
+ }
+ .pp2:hover{
+    font-size: xx-large;
+    cursor:crosshair;
+ }
+ .pp3:hover{
+    font-size: xx-large;
+    cursor:crosshair;
+ }
+ 
+ 
+ .pp4:hover{
+    font-size: xx-large;
+    cursor:crosshair;
+ }
+.card:hover{
+    background-size: 500px;
+    background-position: top;
+
+}
