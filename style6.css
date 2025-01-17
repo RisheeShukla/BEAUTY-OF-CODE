@@ -1,0 +1,72 @@
+.body{
+    width: 100%;
+    background-color: aliceblue;
+    height: 100%;
+
+}
+.container{
+    width: 100vw;
+    margin-left: 50px;
+    display:flex;
+    height: 30vh;
+    justify-content: center;
+    transform-style: preserve-3d;
+    position: relative;
+    
+
+}
+.card{
+    position:relative;
+
+    width:400px;
+    height: 400px;
+    border: 3px solid rgb(14, 12, 12);
+border-radius: 1.5em;
+top: 40%;
+margin: 23px;
+color: transparent;
+
+}
+.a{
+    background: url("https://media.istockphoto.com/id/2157121039/photo/scenic-view-of-silhouette-vidyasagar-setu-over-hooghly-river-against-orange-sky.jpg?s=2048x2048&w=is&k=20&c=zqqYfU206ohcTWY7k_kA44b-OpodFcxqTGqY17mVawc=");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+.b{
+    background: url("https://media.istockphoto.com/id/531864277/photo/bandra-worli-sea-link.jpg?s=2048x2048&w=is&k=20&c=1eiA8c7XF-Tssv9AgxwGDHVQD8qUjDHHSZw85WkneJg=");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+.c{
+    background: url("https://cdn.pixabay.com/photo/2018/03/19/12/44/reflection-3239899_1280.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+.d{
+    background: url("https://cdn.pixabay.com/photo/2020/02/02/17/24/travel-4813658_640.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+
+}
+.card:hover{
+    cursor: context-menu;
+    background-size:500px  500px;
+    background-position: center;
+    opacity: 95%;
+    color: rgb(235, 210, 27);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 2ch;
+    transform: rotateX(20deg) rotateY(20deg);
+}
+h2{
+    position: absolute;
+    bottom:0%;
+    right:4%;
+    
+    
+}
