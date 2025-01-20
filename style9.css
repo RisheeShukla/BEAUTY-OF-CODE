@@ -1,0 +1,98 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+}
+.container{
+position: relative;
+width: 100vw;
+    height: 100vh;
+    background: whitesmoke;
+
+}
+.box{
+    position: absolute;
+    display:flex;
+top:30%;
+left:40%;
+width:300px ;
+height:200px ;
+
+
+}
+h1{
+    gap:0;
+    font-weight: 300;
+    font-size:12ch;
+}
+.a{
+    color: blue;
+}
+.b{
+    color: rgb(252, 16, 16);
+}
+.c{
+    color: rgb(230, 220, 19);
+}
+.d{
+    color: blue;
+}
+.e{
+    color: rgb(77, 235, 19);
+}
+.f{
+    color: rgb(253, 17, 56);
+}
+.input{
+    position: absolute;
+    top:55%;
+    left:36%;
+    
+
+}
+input{
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 4em;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.icon{
+    position: relative;
+    font-size: 30px;
+    color: rgb(10, 194, 226);
+    right:85%;
+    top:10px;
+    margin-top: 10px;
+    
+
+}
+.icons{
+    position: relative;
+    font-size: 30px;
+    color: rgb(10, 194, 226);
+    right:15%;
+    top:10px;
+    margin-top: 10px;
+    
+
+}
+.doo{
+    position: absolute;
+    left:80%;
+    top:20%;
+    
+
+}
+.dooo{
+    position: absolute;
+    left:20%;
+    top:30%;
+    
+
+}
+
+
+
