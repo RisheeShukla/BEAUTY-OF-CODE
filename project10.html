@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-eqiv="X-UA-Compatible" content="IE=edege">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style10.css">
+        <title>
+            STAR GIVING
+
+        </title>  
+        <body>
+            <div class="container">
+                <div class="star" onclick="dis(1)"> <ion-icon name="star" ></ion-icon>   </div>
+                <div class="star" onclick="dis(2)"> <ion-icon name="star"></ion-icon></div>
+                <div class="star" onclick="dis(3)"> <ion-icon name="star"></ion-icon></div>
+                <div class="star" onclick="dis(4)"><ion-icon name="star"></ion-icon> </div>
+                <div class="star" onclick="dis(5)"><ion-icon name="star"></ion-icon> </div>
+                <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            </div>
+<script>
+function dis(n){
+    const but=document.getElementsByClassName("star");
+    let cls;
+    for(let i=0;i<n;i++)
+{
+    if(n==1)
+ {
+    cls="one";
+  }
+  if(n==2)
+ {
+    cls="two";
+  }
+  if(n==3)
+ {
+    cls="three";
+  }
+  if(n==4)
+ {
+    cls="four";
+  }
+  if(n==5)
+ {
+    cls="five";
+  }
+  but[i].className="star "+cls;
+}
+
+
+
+}
+
+</script>
+
+
+        </body>
+    </head>
+</html>

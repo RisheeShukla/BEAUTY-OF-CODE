@@ -1,0 +1,43 @@
+body{
+width: 100vw;
+height: 100vh;
+
+background-color: whitesmoke;
+
+}
+
+
+.container{
+position: relative;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.star{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    font-size: 50px;
+    color: rgb(132, 132, 128);
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    
+
+}
+.one{
+    color: yellow;
+}
+.two{
+    color: yellow;
+}
+.three{
+    color: yellow;
+}
+.four{
+    color: yellow;
+}
+.five{
+    color: yellow;
+}
