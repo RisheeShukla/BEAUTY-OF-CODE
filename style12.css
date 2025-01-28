@@ -1,0 +1,28 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+ion-icon{
+    position: relative;
+    -webkit-mask-image: radial-gradient(ellipse, black 30%, rgba(0, 0, 0, 0.5) 60%);
+  mask-image: radial-gradient(ellipse, black 30%, rgba(0, 0, 0, 0.5) 60%);
+  image-rendering: pixelated;
+    
+    font-size: 29ch;
+    border-radius: 30%;
+    border: 4px double  black;
+    border-top: 14px;
+    border-left:6px dotted gray ;
+    border-bottom: 5px solid gray;
+    border-right: 6px dotted gray;
+
+    left:45%;
+    top:30%;
+
+
+}
+ion-icon:hover{
+    -webkit-mask-image: radial-gradient(ellipse, black 35%, rgba(0, 0, 0, 0.5) 65%);
+    mask-image: radial-gradient(ellipse, black 35%, rgba(0, 0, 0, 0.5) 65%); 
+
+}
